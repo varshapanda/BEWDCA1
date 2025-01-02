@@ -3,10 +3,8 @@ const app = express();
 
 app.get('/signup',(req,res)=>{
     const {userName,email,password, date_of_birth} = req.body;
-    
 
-    res.send('hello!');
-
+    return res.send('hello!');
 
 })
 
